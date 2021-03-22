@@ -14,7 +14,7 @@
     width: 1200px;
     margin: auto;
     height: 750px;
-    border: 1px solid black;
+/*     border: 1px solid black; */
     position: relative;
 }
 
@@ -45,25 +45,9 @@ footer{
     position: absolute;
 }
 
-.cruise_ship{
+.cruiseship{
     right: 0;
-} /* .first_row{
-    right: 0;
-    position: absolute;
-    display: inline-block;
 }
-
-
-.tram .second_row{
-
-}
-
-.tram .third_row{
-    right: 0;
-    bottom: 0;
-    position: absolute;
-    display: inline-block;
-} */
 
 .tractor{
     left: 350px;
@@ -73,3 +57,40 @@ footer{
     right: 350px;
 }
 
+.tram_secondrow{
+    bottom: 275px;
+}
+
+.tractor_secondrow{
+    left: 350px;
+    bottom: 275px;
+}
+
+.submarine_secondrow{
+    right: 350px;
+    bottom: 275px;
+}
+
+.cruiseship_secondrow{
+    right: 0;
+    bottom: 275px;
+}
+
+.tram_thirdrow{
+    bottom: 0;
+}
+
+.tractor_thirdrow{
+    left: 350px;
+    bottom: 0;
+}
+
+.submarine_thirdrow{
+    right: 350px;
+    bottom: 0;
+}
+
+.cruiseship_thirdrow{
+    right: 0;
+    bottom: 0;
+}
