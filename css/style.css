@@ -4,14 +4,62 @@
     padding: 0;
 }
 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .container{
-    width: 1080px;
-    height: 1920px;
+    width: 1200px;
+    margin: auto;
+    height: 750px;
+    border: 1px solid black;
     position: relative;
 }
 
-.tram{
-    width: 300px;
-    height: 300px;
-    border-radius: 1rem;
+body{
+    background-color: #add8e6;
 }
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 90px;
+    font-family: 'Nerko One', cursive;
+    
+}
+
+footer{
+    color: black;
+    text-align: center;
+    font-family: 'Nerko One', cursive;
+    font-size: 30px;
+}
+
+.card{
+    width: 200px;
+    height: 225px;
+    border-radius: 1rem;
+    background-color: white;
+    position: absolute;
+}
+
+.tram{
+    right: 0;
+} /* .first_row{
+    right: 0;
+    position: absolute;
+    display: inline-block;
+}
+
+.tram .second_row{
+
+}
+
+.tram .third_row{
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    display: inline-block;
+} */
