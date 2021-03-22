@@ -45,13 +45,14 @@ footer{
     position: absolute;
 }
 
-.tram{
+.cruise_ship{
     right: 0;
 } /* .first_row{
     right: 0;
     position: absolute;
     display: inline-block;
 }
+
 
 .tram .second_row{
 
@@ -63,3 +64,12 @@ footer{
     position: absolute;
     display: inline-block;
 } */
+
+.tractor{
+    left: 350px;
+}
+
+.submarine{
+    right: 350px;
+}
+
